@@ -64,7 +64,7 @@ heading: Image Shuffle
     </div>
 
     <div class="column">
-      <img src="assets/Desert%20Palette%20-%20aggregated%20-%207558497586628037064.png" style="width:75%">
+      <img src="assets/Desert%20Palette%20-%20aggregated%20-%1047042270159392906.png" style="width:75%">
     </div>
   </div>
   
