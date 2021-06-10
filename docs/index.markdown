@@ -19,7 +19,7 @@ heading: Image Shuffle
   width: 33.3%;
   padding: 5px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 /* Clearfix (clear floats) */
@@ -28,7 +28,7 @@ heading: Image Shuffle
   clear: both;
   display: table;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
   
 </style>
