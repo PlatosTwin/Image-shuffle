@@ -7,8 +7,40 @@ title: Image Shuffle
 heading: Image Shuffle
 ---
 
-<img src="https://github.com/PlatosTwin/Image-shuffle/blob/main/docs/assets/Montauk.jpg" width="100" />
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-test
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
 
-![alt-text](/assets/Montauk.jpg) <!-- .element height="50%" width="50%" -->
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="assets/Montauk.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assets/Montauk.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
