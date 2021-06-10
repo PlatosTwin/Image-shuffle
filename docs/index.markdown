@@ -32,10 +32,10 @@ heading: Image Shuffle
 
 <div class="row">
   <div class="column">
-    <img src="assets/Montauk.jpg" alt="Snow" style="width:100%">
+    <img src="assets/Montauk.jpg" style="width:75%">
   </div>
   <div class="column">
-    <img src="assets/Montauk%20-%20shuffled.jpg" alt="Forest" style="width:100%">
+    <img src="assets/Montauk%20-%20shuffled.png" style="width:75%">
   </div>
 </div>
 
