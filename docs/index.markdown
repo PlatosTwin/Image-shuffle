@@ -6,4 +6,4 @@ layout: home
 title: Image Shuffle
 heading: Image Shuffle
 ---
-Tile and shuffle images. Test.
+!(/assets/Montauk.jpg) !!(/assets/Montauk - shuffled.jpg)
