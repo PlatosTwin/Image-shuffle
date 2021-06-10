@@ -19,6 +19,7 @@ heading: Image Shuffle
   width: 50%;
   padding: 5px;
   align-content: center;
+  text-align: center;
 }
 
 /* Clearfix (clear floats) */
@@ -27,7 +28,9 @@ heading: Image Shuffle
   clear: both;
   display: table;
   align-content: center;
+  text-align: center;
 }
+  
 </style>
 </head>
 <body>
