@@ -19,7 +19,7 @@ heading: Image Shuffle
   width: 33.3%;
   padding: 5px;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 /* Clearfix (clear floats) */
@@ -28,7 +28,7 @@ heading: Image Shuffle
   clear: both;
   display: table;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
   
 </style>
@@ -64,7 +64,7 @@ heading: Image Shuffle
     </div>
 
     <div class="column">
-      <img src="assets/Desert%20Palette%20-%20aggregated%20-%1047042270159392906.png" style="width:75%">
+      <img src="assets/Desert%20Palette%20-%20aggregated%20-%201047042270159392906.png" style="width:75%">
     </div>
   </div>
   
