@@ -52,5 +52,21 @@ heading: Image Shuffle
     </div>
   </div>
 
+  <p style="margin-bottom:1cm;"></p>
+  
+  <div class="row">
+    <div class="column">
+      <img src="assets/Desert%20Palette%20-%20shuffled.png" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Desert%20Palette.jpg" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Desert%20Palette%20-%20aggregated%20-%207558497586628037064.png" style="width:75%">
+    </div>
+  </div>
+  
 </body>
 </html>
