@@ -7,7 +7,7 @@ title: Image Shuffle
 heading: Image Shuffle
 ---
 
-<img src="/docs/assets/Montauk.jpg" width="100">
+<img src="https://github.com/PlatosTwin/Image-shuffle/blob/main/docs/assets/Montauk.jpg" width="100">
 
 test
 
