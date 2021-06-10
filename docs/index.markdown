@@ -18,7 +18,6 @@ heading: Image Shuffle
   float: left;
   width: 50%;
   padding: 5px;
-  align-content: center;
   text-align: center;
 }
 
@@ -27,14 +26,18 @@ heading: Image Shuffle
   content: "";
   clear: both;
   display: table;
-  align-content: center;
   text-align: center;
 }
   
 </style>
 </head>
+  
 <body>
 
+<p></p>
+
+<p></p>
+  
 <div class="row">
   <div class="column">
     <img src="assets/Montauk.jpg" style="width:60%">
