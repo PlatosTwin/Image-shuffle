@@ -30,15 +30,12 @@ heading: Image Shuffle
 </head>
 <body>
 
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
-
 <div class="row">
   <div class="column">
     <img src="assets/Montauk.jpg" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="assets/Montauk.jpg" alt="Forest" style="width:100%">
+    <img src="assets/Montauk%20-%20shuffled.jpg" alt="Forest" style="width:100%">
   </div>
 </div>
 
