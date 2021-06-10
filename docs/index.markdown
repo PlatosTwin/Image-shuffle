@@ -15,7 +15,7 @@ heading: Image Shuffle
 }
 
 .column {
-  float: left;
+  float: center;
   width: 50%;
   padding: 5px;
 }
