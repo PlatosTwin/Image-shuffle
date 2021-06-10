@@ -6,6 +6,7 @@ layout: home
 title: Image Shuffle
 heading: Image Shuffle
 ---
+
 <img src="/docs/assets/Montauk.jpg" width="100">
 
 ![alt-text](/assets/Montauk.jpg) <!-- .element height="50%" width="50%" -->
