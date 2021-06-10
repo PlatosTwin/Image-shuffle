@@ -16,7 +16,7 @@ heading: Image Shuffle
 
 .column {
   float: left;
-  width: 50%;
+  width: 33.3%;
   padding: 5px;
   text-align: center;
 }
@@ -40,11 +40,15 @@ heading: Image Shuffle
   
 <div class="row">
   <div class="column">
-    <img src="assets/Montauk.jpg" style="width:60%">
+    <img src="assets/Montauk%20-%20shuffled.png" style="width:75%">
   </div>
   
   <div class="column">
-    <img src="assets/Montauk%20-%20shuffled.png" style="width:60%">
+    <img src="assets/Montauk.jpg" style="width:75%">
+  </div>
+  
+  <div class="column">
+    <img src="assets/Montauk%20-%20aggregated%20-%207558497586628037064.png" style="width:75%">
   </div>
 </div>
 
