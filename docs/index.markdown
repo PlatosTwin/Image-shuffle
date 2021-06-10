@@ -6,4 +6,4 @@ layout: home
 title: Image Shuffle
 heading: Image Shuffle
 ---
-!(/assets/Montauk.jpg) !!(/assets/Montauk - shuffled.jpg)
+!(/assets/Montauk.jpg) !(/assets/Montauk - shuffled.jpg)
