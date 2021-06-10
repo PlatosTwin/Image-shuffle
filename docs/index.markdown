@@ -7,6 +7,6 @@ title: Image Shuffle
 heading: Image Shuffle
 ---
 
-<img src="https://github.com/PlatosTwin/Image-shuffle/blob/main/docs/assets/Montauk.jpg" width="100">
+<img src="https://github.com/PlatosTwin/Image-shuffle/blob/main/docs/assets/Montauk.jpg" width="100" />
 
 ![alt-text](/assets/Montauk.jpg) <!-- .element height="50%" width="50%" -->
