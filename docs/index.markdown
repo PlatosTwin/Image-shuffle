@@ -26,6 +26,7 @@ heading: Image Shuffle
   content: "";
   clear: both;
   display: table;
+  align-content: center;
 }
 </style>
 </head>
