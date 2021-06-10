@@ -34,6 +34,7 @@ heading: Image Shuffle
   <div class="column">
     <img src="assets/Montauk.jpg" style="width:75%">
   </div>
+  
   <div class="column">
     <img src="assets/Montauk%20-%20shuffled.png" style="width:75%">
   </div>
