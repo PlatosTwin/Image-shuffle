@@ -6,6 +6,6 @@ layout: home
 title: Image Shuffle
 heading: Image Shuffle
 ---
-![alt-text](/assets/Montauk.jpg | width=400)
+![alt-text](/assets/Montauk.jpg width=400)
 
 ![alt-text](/assets/Montauk.jpg) <!-- .element height="50%" width="50%" -->
