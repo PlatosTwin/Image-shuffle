@@ -68,5 +68,37 @@ heading: Image Shuffle
     </div>
   </div>
   
+  <p style="margin-bottom:1cm;"></p>
+  
+  <div class="row">
+    <div class="column">
+      <img src="assets/Yucca%20I%20-%20shuffled.png" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Yucca%20I.jpg" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Yucca%20I%20-%20aggregated%20-%203479744946013714962.png" style="width:75%">
+    </div>
+  </div>
+  
+  <p style="margin-bottom:1cm;"></p>
+  
+  <div class="row">
+    <div class="column">
+      <img src="assets/Arroyo%20Mesa%20-%20shuffled.png" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Arroyo%20Mesa.jpg" style="width:75%">
+    </div>
+
+    <div class="column">
+      <img src="assets/Arroyo%20Mesa%20-%20aggregated%20-%201635668028936342872.png" style="width:75%">
+    </div>
+  </div>
+  
 </body>
 </html>
