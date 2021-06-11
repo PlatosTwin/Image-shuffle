@@ -88,15 +88,15 @@ heading: Image Shuffle
   
   <div class="row">
     <div class="column">
-      <img src="assets/Arroyo%20Mesa%20-%20shuffled.png" style="width:75%">
+      <img src="assets/Cholla%20on%20Edge%20-%20shuffled.png" style="width:75%">
     </div>
 
     <div class="column">
-      <img src="assets/Arroyo%20Mesa.jpg" style="width:75%">
+      <img src="assets/Cholla%20on%20Edge.jpg" style="width:75%">
     </div>
 
     <div class="column">
-      <img src="assets/Arroyo%20Mesa%20-%20aggregated%20-%201635668028936342872.png" style="width:75%">
+      <img src="assets/Cholla%20on%20Edge-%20aggregated%20-%206563957224684581464.png" style="width:75%">
     </div>
   </div>
   
