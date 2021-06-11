@@ -9,29 +9,32 @@ heading: Image Shuffle
   
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  padding: 5px;
-  text-align: center;
-  vertical-align: bottom;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  text-align: center;
-  vertical-align: bottom;
-}
   
-</style>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png?">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+    vertical-align: bottom;
+  }
+
+  </style>
+  
 </head>
   
 <body>
