@@ -8,9 +8,15 @@ import numpy as np
 from PIL import Image
 from numpy.random import default_rng
 
+fname = 'Documents/Art/Watercolor/Scans/Cholla on Edge.jpg'
+
 
 def aggregate(filename, ax_agg, color_threshold=250, bins=10, percent_thresh=1e-10, seed=False):
-    im_rgb = Image.open('/Users/johnsmith/' + filename).convert('RGB')
+    """
+    Aggregate and plot by prominence the colors in the input image. Will print random seed used to generate plot.
+    """
+
+    im_rgb = Image.open('/Users/nikitabogdanov/' + filename).convert('RGB')
 
     # Get colors, sort the list, and remove colors that are overly near to white.
     colors = im_rgb.getcolors(maxcolors=2000000)
@@ -31,11 +37,11 @@ def aggregate(filename, ax_agg, color_threshold=250, bins=10, percent_thresh=1e-
     print(str(removed) + " colors near white removed.")
 
     # Split colors into RGB and frequency
-    RGB = [[c[1][i] / 255 for i in range(3)] for c in colors]
+    rgb = [[c[1][i] / 255 for i in range(3)] for c in colors]
     freq = [c[0] for c in colors]
 
     # Bin the colors
-    hist, binedges = np.histogramdd(np.array(RGB), bins=bins, weights=freq)
+    hist, binedges = np.histogramdd(np.array(rgb), bins=bins, weights=freq)
 
     # Create rectangles to represent colors
     if not seed:
@@ -108,15 +114,15 @@ def shuffle(array, div, seed=False):
 
 
 def image_shuffle(filename, ax_shuffled, r_div, c_div, total_shuffle=True, seed=False):
-    #
-    # Seed functionality not implemented.
-    #
+    """
+    Tile an input image and randomly shuffle the tiles. Seed functionality not yet implemented.
+    """
 
     if c_div == 0 or r_div == 0:
         raise ValueError("'Threshold' cannot be set to 0. Check h_thresh and v_thresh.")
 
     # Read image
-    img = mpimg.imread('/Users/johnsmith/' + filename)
+    img = mpimg.imread('/Users/nikitabogdanov/' + filename)
     img = img[:, :, 0:3]
 
     # Make sure number of rows and columns is divisible by r_div and c_div
@@ -159,22 +165,20 @@ def image_shuffle(filename, ax_shuffled, r_div, c_div, total_shuffle=True, seed=
     ax_shuffled.axis('off')
 
 
-fname = 'Documents/Desert art/Desert Palette.jpeg'
-# fname = 'Documents/Pictures/IMG_7992.jpg'
-
 # Setup plotting
 fig = plt.figure()
-#ax_img = plt.subplot(211) # 211
-ax_agg = plt.subplot(111) # 223
-#ax_shuffled = plt.subplot(111) # 224
+# ax_img = plt.subplot(211)  # 211
+ax_agg = plt.subplot(111)  # 223
+# ax_shuffled = plt.subplot(111)  # 224
 
-# Create aggregate and shuffled images and plot the original
+# Create aggregate and/or shuffled images
 aggregate(fname, ax_agg=ax_agg, bins=15)
-#image_shuffle(fname, ax_shuffled=ax_shuffled, r_div=40, c_div=25, total_shuffle=True)  # Portrait: r < c
+# image_shuffle(fname, ax_shuffled=ax_shuffled, r_div=40, c_div=25, total_shuffle=True)  # Portrait: r < c
 
-image = plt.imread('/Users/johnsmith/' + fname)
-#ax_img.imshow(image, aspect='equal')
-#ax_img.axis('off')
+#  Show the original
+# image = plt.imread('/Users/nikitabogdanov/' + fname)
+# ax_img.imshow(image, aspect='equal')
+# ax_img.axis('off')
 
 # Show plot
 plt.show()
