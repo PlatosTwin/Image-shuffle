@@ -6,7 +6,7 @@ layout: home
 title: Image Shuffle
 heading: Image Shuffle
 ---
-
+  
 <html>
 <head>
 <style>
@@ -35,6 +35,8 @@ heading: Image Shuffle
 </head>
   
 <body>
+  
+  <div style="margin: 35px 100px 18px 100px; font-family: calibri; text-align: justify"></div>
   
   <p style="margin-bottom:1cm;"></p>
   
