@@ -10,7 +10,7 @@ heading: Image Shuffle
 <html>
 <head>
   
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.png?">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <style>
   * {
     box-sizing: border-box;
