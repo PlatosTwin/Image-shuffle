@@ -96,7 +96,7 @@ heading: Image Shuffle
     </div>
 
     <div class="column">
-      <img src="assets/Cholla%20on%20Edge-%20aggregated%20-%206563957224684581464.png" style="width:75%">
+      <img src="assets/Cholla%20on%20Edge%20-%20aggregated%20-%206563957224684581464.png" style="width:75%">
     </div>
   </div>
   
